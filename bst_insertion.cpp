@@ -34,7 +34,7 @@ int main(){
     struct bst* root=(struct bst*)malloc(sizeof(struct bst));
     cout<<"Enter root value:";
     cin>>root->data;
-    for(i=0;i<n;i++){
+    for(i=0;i<n-1;i++){
         cout<<"Enter value:";
         cin>>val;
         createtree(val,root);
